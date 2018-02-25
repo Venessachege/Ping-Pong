@@ -7,7 +7,8 @@ background-color:black;
   height: 400px;
   text-align: center;
   margin-top: 30px;
-  background-color: lightblue;
+  background-color: #009999;
+
 }
 .imageb{
     display: block;
@@ -15,13 +16,18 @@ background-color:black;
     margin-right: 400px;
 }
 .jumbotron{
-  background-color:  #ff6666;
+
+ color: black;
   margin-top: 30px;
-  height: 700px;
+  height: 823px;
+  background-image: url(/assets/background3.jpg);
 }
 .text-center{
   font-size: 50px;
 }
 .well h2{
   font-size: 50px;
+}
+.well li{
+  font-size: 20px;
 }
