@@ -1,4 +1,5 @@
-function ping(input){
+
+function converter(input){
   for (var i = 1; i <=input; i++) {
     if ((i%3===0) && (i%5===0)){
 
@@ -12,7 +13,7 @@ function ping(input){
      $(".output").append("<li>"+"pong"+"</li>");
    }
    else{
-    
+
       $(".output").append("<li>"+i+"</li>");
     }
   }//end of for
@@ -25,7 +26,7 @@ $(document).ready(function(){
   //create a function
   $("#form").submit(function(){
     var input=$("#submit").val();
-    ping(input);
+    converter(input);
 
     event.preventDefault();
   });

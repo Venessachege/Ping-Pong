@@ -1,0 +1,14 @@
+.container-fluid{
+background-color:black;
+}
+
+.well{
+  width: 500px;
+  height: 800px;
+  text-align: center;
+}
+.imageb{
+    display: block;
+    margin-left: 500px;
+    margin-right: 400px;
+}
