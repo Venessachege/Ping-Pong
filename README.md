@@ -13,7 +13,7 @@ Clone or fork the ping-pong repository from my github then create a local reposi
 You can use atom to modify it and any web browser to run the project.
 
 ## Viewing Project
-To view my project on Github pages click the following:
+To view my project on Github pages click the following:https://venessachege.github.io/Ping-Pong/
 
 ## License Information
 MIT License
