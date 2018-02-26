@@ -1,22 +1,26 @@
 
 function converter(input){
-  for (var i = 1; i <=input; i++) {
-    if ((i%3===0) && (i%5===0)){
+  if(input<= 300){
+    for (var i = 1; i <=input; i++) {
+      if ((i%3===0) && (i%5===0)){
 
-     $(".output").append("<li>"+ "pingpong"+"</li>");
+       $(".output").append("<li>"+ "pingpong"+"</li>");
 
-   }else if (i%3===0) {
+     }else if (i%3===0) {
 
-     $(".output").append("<li>"+"ping"+"</li>");
-   } else if (i%5===0) {
+       $(".output").append("<li>"+"ping"+"</li>");
+     } else if (i%5===0) {
 
-     $(".output").append("<li>"+"pong"+"</li>");
-   }
-   else{
+       $(".output").append("<li>"+"pong"+"</li>");
+     }
+     else{
 
-      $(".output").append("<li>"+i+"</li>");
-    }
-  }//end of for
+        $(".output").append("<li>"+i+"</li>");
+      }
+    }//end of for
+  }else {
+    alert("Enter a number that is less than 300")
+  }
 }
 //call the function
 
